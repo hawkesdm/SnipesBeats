@@ -1,0 +1,103 @@
+body{
+	font-family: "Times New Roman";
+	}
+	
+.jumbotron{
+	margin:0 !important;
+	color:white !important;
+	min-height:665px;
+	background:url(../img/jumboback.jpg) ;
+	}
+	
+span{
+	float:right;
+}
+	
+.sectionOne{
+
+	color:white;
+	padding:60px;
+	min-height:665px;
+	background:url(../img/guitar.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.sectionTwo{
+
+	color:white;
+	padding:60px;
+	min-height:665px;
+	background:url(../img/mic.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.sectionThree{
+
+	color:white;
+	padding:60px;
+	min-height:665px;
+	background:url(../img/keys.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.box{
+	color:red;
+	float:right;
+	background:black;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.box button{
+	margin-left:120px;
+}
+
+footer{
+	text-align:center;
+	color:white;
+	padding-top:20px;
+
+	width:100%;
+	margin-top:120px;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
