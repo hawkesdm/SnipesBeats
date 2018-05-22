@@ -1,23 +1,63 @@
-body{
-	font-family: "Times New Roman";
+@media (max-width:3600px) {
+	p{
+		font-size:1.5rem;
 	}
+}
+
+body{
+	padding:0;
+
+}
+	
+.bg-company-red {
+    background-color: blue;
+}
+
+nav a{
+	border: 1px solid;
+	color: black !important;
+	font-weight:bold;
+	font-size:15px;
+}
+
+nav a:hover{
+	background-color:white;
+}
+
 	
 .jumbotron{
 	margin:0 !important;
 	color:white !important;
-	min-height:665px;
+	min-height:740px;
 	background:url(../img/jumboback.jpg) ;
 	}
+
+.jumbotron h1{
+
+	color:white !important;
+	font-size:140px !important;
+	text-align:center;
+	font-family: Dopestyle;
+}
+	
+.jumbotron img{
+	margin-left:80px;
+}
+
+.bangers{
+	margin-left:150px;
+}
 	
 span{
 	float:right;
 }
 	
 .sectionOne{
-
+	
+	
 	color:white;
 	padding:60px;
-	min-height:665px;
+	min-height:740px;
 	background:url(../img/guitar.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -27,7 +67,7 @@ span{
 
 	color:white;
 	padding:60px;
-	min-height:665px;
+	min-height:740px;
 	background:url(../img/mic.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -37,14 +77,27 @@ span{
 
 	color:white;
 	padding:60px;
-	min-height:665px;
+	min-height:740px;
 	background:url(../img/keys.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
+.sectionThree a{
+	margin-left:130px;
+		
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 40px); /* Adjust as needed */
+}
+
 .box{
-	color:red;
+	color:white;
 	float:right;
 	background:black;
 	border: 1px solid;
@@ -52,18 +105,33 @@ span{
 	box-shadow: 5px 10px 8px #888888;
 }
 
-.box button{
-	margin-left:120px;
+.box h2{
+	padding-top:5px;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.box form{
+	text-align:center;
 }
 
 footer{
+	font-size:25px;
+	background-color:black;
 	text-align:center;
 	color:white;
-	padding-top:20px;
-
-	width:100%;
-	margin-top:120px;
+	min-height:100px;
+	padding-top:25px;
+	padding:25px;
 }
+
+footer a{
+	padding:5px;
+	color:blue;
+	font-size:50px;
+}
+
 
 .scroll-down {
   opacity: 1;
@@ -83,10 +151,10 @@ footer{
   background-size: 14px auto;
   border-radius: 50%;
   z-index: 2;
-  -webkit-animation: bounce 2s infinite 2s;
-  animation: bounce 2s infinite 2s;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  -webkit-animation: bounce 4s infinite 4s;
+  animation: bounce 3s infinite 2s;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
 }
 
 .scroll-down:before {
@@ -101,3 +169,6 @@ footer{
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
 }
+
+
+

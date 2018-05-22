@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SnipesBeats is the one the top super producers out of Richmond, Virginia bringing you the best variety of beats you can get from Virginia.">
+	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript, Best fire original beats you can find from a versatile producer. Rap Instrumenatals. Hip Hop Beats for sale. Instrumentals for sale.">
+	<meta name="author" content="Michael Snipes, SnipesBeats">
+	
+<title> Snipes Beats </title>
+
+	<link href="web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+	<link href="css/Snipesbeats.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+   
+	<link property="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+	<link property="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+	<link property="stylesheet" href="jquery-ui/jquery-ui.css">
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<script src="js/wow.js"></script>
+	<script> 
+		new WOW().init();
+	</script>
+    
+
+</head>
+
+
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-company-red">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+			<a class="nav-link" href="beatSelection.html">-- BEAT ARCHIVE -- </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  
+
+  <h1>SnipesBeats</h1>
+		
+	<br><br><br>
+
+		
+	<div class="row">
+		<div class="col-md-6">
+			<h2><i>Super Producer <b>'Michael Snipes'</b></i></h2>
+			<img src="img/photo.jpg" alt="photo" height="250" width="250">
+		</div>
+		<div class="col-md-6">
+			<h2 class="bangers"><i>Classic Vibes</i></h2>
+			<iframe width="520" height="200" src="https://www.youtube.com/embed/iSKoBJy6rN0"  ></iframe>
+		</div>
+	</div>
+  </div>
+  <a href="#" class="scroll-down" ></a>
+</div>
+
+
+<section class="sectionOne">
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h2><i>Originality</i></h2>
+			<p class="lead">With over 6 years experience, Snipes knows creativity is key.</p>
+			<audio controls>
+			  <source src="Beat1.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+</div>
+
+
+</section>
+
+<section class="sectionTwo">
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6"></div>
+		<div class="col-md-6">
+			<h2><i>Versatility</i></h2>
+			<p class="lead">He can adapt to numerous sounds.</p>
+			<audio controls>
+			  <source src="Beat2.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<section class="sectionThree">
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h3><i>Producer's Touch</i></h3>
+			<p class="lead">Snipes adds a creative signature of his own to each track.</p>
+			<audio controls>
+			  <source src="Beat3.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+	
+</div>
+
+</section>
+
+<footer>
+
+
+	
+	
+	<div class="footer-copyright py-3 text-center">
+		SnipesBeats © 2018 Copyright
+    </div>
+	
+	<a class="fab fa-facebook" href="https://www.facebook.com/michael.snipess.3"></a>
+	<a class="fab fa-instagram" href="https://www.instagram.com/snipesbeats/"></a>
+	<a class="far fa-envelope" href="sn1peas@live.com"></a>
+	<a class="fab fa-youtube" href="https://www.youtube.com/channel/UCcJDU_rDNBzGrsYlUoyzSbw"></a>
+	
+</footer>
+
+
+<script>
+
+
+$(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.sectionOne').offset().top }, 'slow');
+      return false;
+    });
+  });
+  
+
+</script>
+
+
+
+
+</body>
+
+</html>

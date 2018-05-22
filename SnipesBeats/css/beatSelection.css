@@ -1,0 +1,86 @@
+body{
+	padding:0;
+
+}
+	
+.bg-company-red {
+    background-color: blue;
+}
+
+nav a{
+	border: 1px solid;
+	color: black !important;
+	font-weight:bold;
+	font-size:15px;
+}
+
+nav a:hover{
+	background-color:white;
+}
+
+	
+.jumbotron{
+	margin:0 !important;
+	color:white !important;
+	min-height:665px;
+	background:url(../img/jumboback.jpg) ;
+	}
+
+.jumbotron h1{
+
+	color:white !important;
+	font-size:140px !important;
+	text-align:center;
+	font-family: Dopestyle;
+}
+
+
+
+
+.lead{
+	text-align:center;
+	margin-right:35px;
+}
+
+p{
+	margin-left:30px;
+}
+
+.listSelection2{
+	float:right;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 40px); /* Adjust as needed */
+}
+
+h3{
+	margin-left:60px;
+	text-align:center;
+}
+
+#disScript{
+	width: 550px;
+	margin-left:150px;
+}
+
+
+footer	{
+	font-size:25px;
+	background-color:black;
+	text-align:center;
+	color:white;
+	min-height:100px;
+	padding-top:25px;
+	padding:25px;
+}
+
+footer a{
+	padding:5px;
+	color:blue;
+	font-size:50px;
+}
